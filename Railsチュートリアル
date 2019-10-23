@@ -8,3 +8,13 @@ $ rails generate	$ rails g
 $ rails test	$ rails t
 $ bundle install	$ bundle
 表 3.1: Railsで使える短縮形の例
+
+次に進む前に、StaticPagesコントローラファイルをGitリポジトリに追加しておきましょう。
+
+$ git add -A
+$ git commit -m "Add a Static Pages controller"
+$ git push -u origin static-pages
+最後のコマンドでは、static-pagesトピックブランチをBitbucketにプッシュしています。以後は、単に次のコマンドを実行するだけで同じプッシュが行われるようになります。
+
+$ git push
+上のコミット〜プッシュの流れは、著者が実際の開発でよく使っていたパターンに基づいていますが、ここから先は途中でこのような指示をいちいち書くことはしませんので、各自こまめにプッシュするようにしてください。
